@@ -97,7 +97,7 @@ public class SimpleJSON {
             Elements i = document.select("img");
            for(Element l:i) {
                String s = l.attr("src");
-               System.out.println(s);
+               System.out.println(l);
                count++;
           }
             System.out.println(count);

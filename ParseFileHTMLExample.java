@@ -16,10 +16,10 @@ public class ParseFileHTMLExample {
             Elements links = document.select("a[href]");
 
             for (Element e: links){
-            String text = e.attr("href");
-                System.out.println(text);
-//                e.prepend("<p>Hello</p>");
-//                System.out.println(e);
+//            String text = e.attr("href");
+//                System.out.println(text);
+////                e.prepend("<p>Hello</p>");
+               System.out.println(e);
             }
         } catch (IOException e) {
             e.printStackTrace();
